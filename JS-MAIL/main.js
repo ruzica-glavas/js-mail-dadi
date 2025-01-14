@@ -10,3 +10,19 @@ Nota:
 Non è necessario provvedere alla validazione delle email
 */
 
+
+/*
+mini tasks:
+    - creare un'array con 3-5 email
+    - creare un prompt dove chiedo all'utente la propria email
+    - creare un ciclo for con all'interno un console.log dove scrivo "l'email dell'utente é ${email}"
+
+*/
+
+const emails = [
+    'nathan@gmail.com',
+    'ed@gmail.com',
+    'fabio@gmail.com',
+    'phil@gmail.com',
+    'carlo@gmail.com'
+]
