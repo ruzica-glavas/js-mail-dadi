@@ -16,7 +16,7 @@ mini tasks:
 //Creazione array
 
 const computerDado = Math.round(Math.random()*6)
-const playerDado = Math.round (Math.random()*6)
+const playerDado = Math.round (Math.random()*6) /* Si può usare anche Math.floor aggiungendo +1 dopo le parentesi */
 
 console.log(`Numero estratto dal computer: ${computerDado}.`)
 console.log(`Numero estratto dal player: ${playerDado}`)
