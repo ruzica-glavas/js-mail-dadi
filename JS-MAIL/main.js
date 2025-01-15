@@ -36,7 +36,7 @@ const emailsPrompt = prompt ("Inserisci la tua email")
 
 /*dichiarare la variabile per verificare se l'email é presente nella lista*/
 
-let emailsPresent 
+let emailsPresent = false;
 
 //creare il ciclo for
 
@@ -56,7 +56,7 @@ for (i=0; i<emailsInvitati.length; i++){
 //Creare il messaggio appropriato in caso l'email sia o meno all'interno della lista di invitati
 
 if(emailsPresent){
-    console.log("La tua email é presente nella lista degli invitati")
+    console.log("La tua email é presente nella lista degli invitati, quindi puoi accedere!")
 } else{
-    console.log("La tua email non é presente nella lista degli invitati")
+    console.log("La tua email non é presente nella lista degli invitati, quindi non puoi accedere!")
 }
