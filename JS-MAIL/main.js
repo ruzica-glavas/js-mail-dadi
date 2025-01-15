@@ -47,8 +47,6 @@ for (i=0; i<emailsInvitati.length; i++){
         emailsPresent=true
 
     // se false
-}else{
-    emailsPresent
 }
 
 }
